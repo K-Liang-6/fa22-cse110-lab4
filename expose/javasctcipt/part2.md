@@ -35,7 +35,7 @@
    G.'3undefined'it is converted to string and connecting the parameters as a string involved a string.
    H. NAN No string conversion is done as we use the subtraction operator. All arguments are converted to numbers, but 'undefined' cannot be converted properly. So, subtraction results in 'Not a Number'.
 
-14.A. T We convert two parameters to numbers and compare it as expected.
+14.A. T We convert two parameters to numbers and compare it as expected.<br />
    B. T The string is compared in the sequence of the dictionary because the "12 'appears in the" 2' in the dictionary, and the output is true.
    C. T We convert two parameters to numbers and compare it as expected.
    D. F '===' The operating symbol does not perform type conversion, so when we compare the string directly with the integer, we get false.
