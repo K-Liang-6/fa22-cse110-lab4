@@ -1,5 +1,3 @@
-part 3 answer
-
 1. citylots.json
 
 2. expose.js
