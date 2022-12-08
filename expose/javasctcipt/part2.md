@@ -35,14 +35,7 @@
    G.'3undefined'it is converted to string and connecting the parameters as a string involved a string.
    H. NAN No string conversion is done as we use the subtraction operator. All arguments are converted to numbers, but 'undefined' cannot be converted properly. So, subtraction results in 'Not a Number'.
 
-14.A] T Here, we convert both arguments to numbers and compare as expected.
-   B] T Here, strings are compared in lexicographic order - as '12' comes before '2' in a dictionary, the output is true.
-   C] T Here, we convert both arguments to numbers and compare as expected.
-   D] F Here, the '===' operator does not convert types, so we get false as we compare a string directly to an integer.
-   E] F Here, true is converted to 1, and comparison occurs as normal.
-   F] F Here, Boolean(2) explicitly outputs a boolean value of 'true', which is strictly compared to another boolean value of 'true', which are equal.
-
-   A. T We convert two parameters to numbers and compare it as expected.
+14.A. T We convert two parameters to numbers and compare it as expected.
    B. T The string is compared in the sequence of the dictionary because the "12 'appears in the" 2' in the dictionary, and the output is true.
    C. T We convert two parameters to numbers and compare it as expected.
    D. F '===' The operating symbol does not perform type conversion, so when we compare the string directly with the integer, we get false.
