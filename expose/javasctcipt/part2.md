@@ -20,27 +20,27 @@
 
 11.It will return [50, 100 ,150]. We may think that the announcement of the "discount" array as a constant will cause problems, but this is just an announcement as an unchanged reference. As long as we do not try to reassign "discounts", we can still change the constant array.Therefore, the code is executed as expected to give the same output as the last time.
 
-12.A. student.name 
-   B. student['Grad Year'] 
-   C. student.greeting() 
-   D. student['Favorite Teacher'].name
-   E. student.courseload[0]
+12.A. student.name <br />
+   B. student['Grad Year'] <br />
+   C. student.greeting() <br />
+   D. student['Favorite Teacher'].name<br />
+   E. student.courseload[0]<br />
 
-13.A.'32' When we involve a string, we connect the string of the integer.
-   B. 1 when we use the subtraction operator, there is no string conversion.All parameters are converted to numbers and minus 
-   C. 3 Null interpretation as zero, and it is normal.
-   D. "3null" it has converted the parameter to string and connection because it involves a string.
-   E. 4 True is explained as 1, and it is normal.
-   F. 0 False and NULL are interpreted as 0, and it is added to normal.
-   G.'3undefined'it is converted to string and connecting the parameters as a string involved a string.
-   H. NAN No string conversion is done as we use the subtraction operator. All arguments are converted to numbers, but 'undefined' cannot be converted properly. So, subtraction results in 'Not a Number'.
+13.A.'32' When we involve a string, we connect the string of the integer.<br />
+   B. 1 when we use the subtraction operator, there is no string conversion.All parameters are converted to numbers and minus <br />
+   C. 3 Null interpretation as zero, and it is normal<br />
+   D. "3null" it has converted the parameter to string and connection because it involves a string.<br />
+   E. 4 True is explained as 1, and it is normal.<br />
+   F. 0 False and NULL are interpreted as 0, and it is added to normal.<br />
+   G.'3undefined'it is converted to string and connecting the parameters as a string involved a string.<br />
+   H. NAN No string conversion is done as we use the subtraction operator. All arguments are converted to numbers, but 'undefined' cannot be converted properly. So, subtraction results in 'Not a Number'.<br />
 
 14.A. T We convert two parameters to numbers and compare it as expected.<br />
-   B. T The string is compared in the sequence of the dictionary because the "12 'appears in the" 2' in the dictionary, and the output is true.
-   C. T We convert two parameters to numbers and compare it as expected.
-   D. F '===' The operating symbol does not perform type conversion, so when we compare the string directly with the integer, we get false.
-   E. F True is converted to 1, which is performed as usual.
-   F. F Boolean (2) explicitly outputs a Boolean value 'true', which is compared with another Boolean value 'true'.
+   B. T The string is compared in the sequence of the dictionary because the "12 'appears in the" 2' in the dictionary, and the output is true.<br />
+   C. T We convert two parameters to numbers and compare it as expected.<br />
+   D. F '===' The operating symbol does not perform type conversion, so when we compare the string directly with the integer, we get false.<br />
+   E. F True is converted to 1, which is performed as usual.<br />
+   F. F Boolean (2) explicitly outputs a Boolean value 'true', which is compared with another Boolean value 'true'.<br />
 
 15.'==' The operator will execute the type conversion so that the two parameters have the same type, and then perform the comparison according to the type.'===' The operator also compares the type of two parameters, which means that if the parameters have different beginning types, they are not equal.
 
